@@ -1,30 +1,3 @@
-#!/usr/bin/env python2
-
-# CredCrack - A fast and stealthy credential harvester
-# This script harvests credentials for any given IP(s) and
-# notifies one when domain administrator credentials have
-# been captured. The harvester functionality is limited to 
-# systems running Windows and Powershell version 2+ 
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <http://www.gnu.org/licenses/>.
-#
-# Author:  Jonathan Broche
-# Email:   jb@gojhonny.com
-# Twitter: @g0jhonny
-# Version: 1.1
-# Date:    2015-08-26
-
 import subprocess, os, argparse, time, datetime, socket, base64, threading, Queue, hashlib, binascii, signal, sys, getpass
 from shlex import split
 from shutil import rmtree, copy
