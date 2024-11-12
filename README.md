@@ -1,3 +1,3 @@
 # Perintah
 
-- Console Gathering
+- Consol
