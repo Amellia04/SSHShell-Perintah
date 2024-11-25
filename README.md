@@ -1,3 +1,3 @@
 # Perintah
 
-- Consol
+- Console Manager
